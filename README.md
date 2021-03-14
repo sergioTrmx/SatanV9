@@ -1,15 +1,11 @@
-![WhatsApp Image 2021-03-14 at 00 52 48](https://user-images.githubusercontent.com/79174165/111052910-b5b17e80-845f-11eb-8730-475e9c9e4399.jpeg)
-
-
-
 ### Íris, un BOT(y ademas asi se llama mi gatita:)
-Un bot en portugués (PERO TRADUCIDO POR TU PAPI SATAN) hecho todo el mundo, con cientos de comandos que sigue creciendo.
+Un bot en portugués (PERO TRADUCIDO POR TU PAPI SAMU330) hecho todo el mundo, con cientos de comandos que sigue creciendo.
 Pido disculpas por cualquier error que pueda aparecer, los corregiré lo antes posible, y lo siento si hay sesiones sin editar que deban editarse, lo subí sobre la marcha.
 
-## <img src="https://i.pinimg.com/originals/d2/14/1b/d2141b114b14198ede9b3ee4f4100520.gif" width="60px"> I'm Satan
+## <img src="https://i.pinimg.com/originals/d2/14/1b/d2141b114b14198ede9b3ee4f4100520.gif" width="60px"> I'm Samu330
 <p align="center">
     
-## Me encantan los gatitos, a ti igual? suscribete a mi canal entonces:) dando click [aqui](https://www.youtube.com/channel/UC8yq2vREgBFz5Vi_51QNX9g)
+## Me encantan los gatitos, a ti igual? suscribete a mi canal entonces:) dando click [aqui](https://www.youtube.com/channel/UCqPXxG2ZdDe_ugOqMHDRMqg)
 
 ### Funciones (no todas)
 
@@ -62,8 +58,8 @@ Pido disculpas por cualquier error que pueda aparecer, los corregiré lo antes p
 Necesita tener este repositorio, es simple, ejecute los comandos a continuación.
 
 ```bash
-> git clone https://github.com/TxC-Toxic/SatanV9.git
-> cd SatanV9
+> git clone https://github.com/Samu330/Sm330-botwa
+> cd Sm330-botwa
 > npm i
 > npm install gify-cli
 ```
@@ -83,7 +79,7 @@ Escriba en su chat el mensaje:
 ```
 
 ### Crea tus comandos
-Abre tu config.js y encuentra un pequeño espacio en blanco, te daré un ejemplo de una respuesta simple, ve a probarlo como quieras, a otros tipos, puedes ver cuáles [aqui](https://docs.openwa.dev/classes/client.html) y en caso de duda llámame por [aqui] (https://wa.me/+50373488366).
+Abre tu config.js y encuentra un pequeño espacio en blanco, te daré un ejemplo de una respuesta simple, ve a probarlo como quieras, a otros tipos, puedes ver cuáles [aqui](https://docs.openwa.dev/classes/client.html) y en caso de duda llámame por [aqui](https://facebook.com/tupapi.samu330) o [aqui](https://wa.me/+529984907794).
 
 ```bash
 case 'Nombre del comando sin espacios':
@@ -115,7 +111,7 @@ Edite las API que se encuentran en:
 - [WA-Automate](https://github.com/open-wa/wa-automate-nodejs)
 - [ArugaZ](https://github.com/ArugaZ/whatsapp-bot)
 - [MhankBarBar](https://github.com/MhankBarBar/whatsapp-bot)
-- [Satan](https://github.com/TxC-Toxic)
+- [Samu330](https://github.com/Samu330)
 - ¡Les agradezco sinceramente sus excelentes API!
 
 ## Doar e Suporte
