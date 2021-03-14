@@ -69,7 +69,7 @@ module.exports = kconfig = async (kill, message) => {
         const isGroupAdmins = isGroupMsg ? groupAdmins.includes(sender.id) : false
         const isBotGroupAdmins = isGroupMsg ? groupAdmins.includes(botNumber + '@c.us') : true
 	const chats = (type === 'chat') ? body : (type === 'image' || type === 'video') ? caption : ''
-        const ownerNumber = '5037248****@c.us' // MUDE ISSO PARA O SEU NUMERO
+        const ownerNumber = '503734****@c.us' // MUDE ISSO PARA O SEU NUMERO
         const isOwner = sender.id === ownerNumber
         global.pollfile = 'poll_Config_'+chat.id+'.json'
         global.voterslistfile = 'poll_voters_Config_'+chat.id+'.json'
@@ -332,6 +332,11 @@ module.exports = kconfig = async (kill, message) => {
     await kill.reply(from, 'Algunos videos del canal de mi bro DEIVID\n\nWhatsApp ANONYMOUS V.06 oFc 100% inmune\n\nhttps://youtu.be/tOE_ywldS_Q\n\nComo modificar un WA prt-1\n\nhttps://youtu.be/WdWsvY3xGPc\n\nWhAtsApp BusSines Golden/13\n\nhttps://youtu.be/JqSHAWlGhDY\n\nNumero virtual +48 método efectivo\n\nhttps://youtu.be/7GOss7AaJ88\n\nNumero virtual +1 EE.Uu (ANONYMOUS DEIVID)\n\nhttps://youtu.be/D1G6hI1mLs4\n\nCreando con pixelLab (ANONYMOUS DEIVID)\n\nhttps://youtu.be/so1y1g-MPZ4\n\nSu video mas reciente:\n\nhttps://youtu.be/hy4od9BT-tA\n\nEspero y lo apoyes🤗', id)
     break
 	
+	    case 'samu330':
+			if (mute) return console.log('Ignorando comando [Silence]')
+    await kill.reply(from, '｡☆✼★━━━━━━━━━━━━★✼☆｡\n\nHola!😀\n\nTe gustaria apoyarme?\n\nSolo unete a mi grupo de WhatsApp: https://chat.whatsapp.com/JyD8Vj11LPu1TofWhWnYMA\n\n* ◄ ◊ ► ◄ ◊ ► ◄ ◊ ► ◄ ◊ ► ◄ ◊ ►*\n\nO puedes suscribirte a mi canal para saber como instalar un Bot: https://www.youtube.com/channel/UC8yq2vREgBFz5Vi_51QNX9g\n\n✩｡:*•.─────  ❁ ❁  ─────.•*:｡✩\n\nO seamos amigos en facebook: https://facebook.com/netomembreno', id)
+    break	
+			
 		case 'about':
 			if (mute) return console.log('Ignorando comando [Silence]')
 			await kill.sendFile(from, './lib/media/img/iris.png', 'iris.png', sobre, id)
@@ -529,7 +534,7 @@ if (isMedia) {
 			
 		case 'legiao':
 			if (isGroupMsg) return kill.reply(from, 'Puede ser que este grupo no permita enlaces, así que use ese comando en el PV, ¿de acuerdo?', id)
-			kill.sendLinkWithAutoPreview(from, 'https://wa.me/+50372488366', 'Genial que te hayas interesado en contactar a satan!\nAqui esta su whats!', id)
+			kill.sendLinkWithAutoPreview(from, 'https://wa.me/+50373488366', 'Genial que te hayas interesado en contactar a satan!\nAqui esta su whats!', id)
 			break
 			
 			
@@ -1130,7 +1135,7 @@ if (isMedia) {
 
 
         case 'criador':
-            kill.sendContact(from, '50373488366')
+            kill.sendContact(from, '50372488366')
 			kill.reply(from, 'Si no responde, es por que no le importas:v _OK NO_, puede estar ocupado, tu tranqui..', id)
             break
 
@@ -1138,7 +1143,7 @@ if (isMedia) {
         case 'donate':
 		case 'doar':
             kill.sendText(from, donate, id)
-            kill.sendContact(from, 'wa.me/+50373488366')
+            kill.sendContact(from, 'wa.me/+50372488366')
             break
 			
 	case 'valor':
@@ -1668,7 +1673,7 @@ if (isMedia) {
 		case 'sip':
 			if (args.length == 1) {
 				const ip = await axios.get(`http://ipwhois.app/json/${body.slice(5)}`)
-				await kill.sendLinkWithAutoPreview(from, `http://www.google.com/maps/place/${ip.data.latitude},${ip.data.longitude}`, `\n✪ IP: ${ip.data.ip}\n\n✪ Tipo: ${ip.data.type}\n\n✪ Region: ${ip.data.region}\n\n✪ Ciudad: ${ip.data.city}\n\n✪ Latitud: ${ip.data.latitude}\n\n✪ Longitud: ${ip.data.longitude}\n\n✪ Provedor: ${ip.data.isp}\n\n✪ Continente: ${ip.data.continent}\n\n✪ Sigla del continente: ${ip.data.continent_code}\n\n✪ País: ${ip.data.country}\n\n✪ Sigla del País: ${ip.data.country_code}\n\n✪ Capital do País: ${ip.data.country_capital}\n\n✪ DDI: ${ip.data.country_phone}\n\n✪ Países Vesinos: ${ip.data.country_neighbours}\n\n✪ Horário: ${ip.data.timezone} ${ip.data.timezone_name} ${ip.data.timezone_gmt}\n\n✪ Moneda: ${ip.data.currency}\n\n✪ Sigla de Moneda: ${ip.data.currency_code}\n\nBusca de IP realizada por Íris - Satan!`, id)
+				await kill.sendLinkWithAutoPreview(from, `http://www.google.com/maps/place/${ip.data.latitude},${ip.data.longitude}`, `\n✪ IP: ${ip.data.ip}\n\n✪ Tipo: ${ip.data.type}\n\n✪ Region: ${ip.data.region}\n\n✪ Ciudad: ${ip.data.city}\n\n✪ Latitud: ${ip.data.latitude}\n\n✪ Longitud: ${ip.data.longitude}\n\n✪ Provedor: ${ip.data.isp}\n\n✪ Continente: ${ip.data.continent}\n\n✪ Sigla del continente: ${ip.data.continent_code}\n\n✪ País: ${ip.data.country}\n\n✪ Sigla del País: ${ip.data.country_code}\n\n✪ Capital do País: ${ip.data.country_capital}\n\n✪ DDI: ${ip.data.country_phone}\n\n✪ Países Vesinos: ${ip.data.country_neighbours}\n\n✪ Horário: ${ip.data.timezone} ${ip.data.timezone_name} ${ip.data.timezone_gmt}\n\n✪ Moneda: ${ip.data.currency}\n\n✪ Sigla de Moneda: ${ip.data.currency_code}\n\nBusca de IP realizada por Íris - 𝕾𝖆𝖙𝖆𝖓!`, id)
             } else {
 				await kill.reply(from, 'Especifique una IP de tipo IPV4.', id)
             }
@@ -1678,7 +1683,7 @@ if (isMedia) {
 		case 'scep':
 			if (args.length == 1) {
 				const cep = await axios.get(`https://viacep.com.br/ws/${body.slice(6)}/json/`)
-				await kill.reply(from, `✪ CEP: ${cep.data.cep}\n\n✪ Lugar públicoro: ${cep.data.logradouro}\n\n✪ Complemento: ${cep.data.complemento}\n\n✪ Barrio: ${cep.data.bairro}\n\n✪ Estado: ${cep.data.localidade}\n\n✪ DDD: ${cep.data.ddd}\n\n✪ Sigla del Estado: ${cep.data.uf}\n\n✪ Código IBGE: ${cep.data.ibge}\n\n✪ Código GIA: ${cep.data.gia}\n\n✪ Código Siafi: ${cep.data.siafi}\n\nBusca de CEP echa por Íris - Satan.`, id)
+				await kill.reply(from, `✪ CEP: ${cep.data.cep}\n\n✪ Lugar públicoro: ${cep.data.logradouro}\n\n✪ Complemento: ${cep.data.complemento}\n\n✪ Barrio: ${cep.data.bairro}\n\n✪ Estado: ${cep.data.localidade}\n\n✪ DDD: ${cep.data.ddd}\n\n✪ Sigla del Estado: ${cep.data.uf}\n\n✪ Código IBGE: ${cep.data.ibge}\n\n✪ Código GIA: ${cep.data.gia}\n\n✪ Código Siafi: ${cep.data.siafi}\n\nBusca de CEP echa por Íris - 𝕾𝖆𝖙𝖆𝖓.`, id)
             } else {
 				await kill.reply(from, 'Especifique un CEP.', id)
             }
